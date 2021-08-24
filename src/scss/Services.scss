@@ -1,0 +1,44 @@
+.services_card{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+
+.img-service {
+    width: 100px;
+    height: 315px;
+    margin-bottom: 20px;
+    border-top: 2px solid #ed5b5b;
+    border-left: 2px solid #ed5b5b;
+    border-radius: 10px;
+  }
+  
+  .card_service_box{
+   //   background-color: rgb(18, 20, 134);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+
+    }
+
+
+
+  .section_service_bg{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+  }
+  .section_service_bg> .btn-get-seemore{
+  
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+  
+  
+
+ 
+  
