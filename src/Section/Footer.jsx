@@ -90,8 +90,11 @@ const Footer = () => {
                 <div className="col-lg-4 col-md-6 footer-newsletter">
                   <h4>Receive my news</h4>
                   <p>Register to always be informed of our news</p>
-                  <form action="" method="post">
-                    <input type="email" name="email" />
+                  <form
+                   action="https://formspree.io/f/xdoypjqp"
+                   method="POST"
+                  >
+                    <input type="email" name="_replyto" />
                     <input type="submit" value="Subscribe" />
                   </form>
                 </div>
